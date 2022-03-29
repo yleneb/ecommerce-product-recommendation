@@ -1,0 +1,31 @@
+name: ProductRecommendation
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - autopep8=1.4.4
+  - colorama=0.4.3
+  - dask=2022.2.1
+  - imbalanced-learn=0.9.0
+  - ipykernel=5.5.3
+  - ipython=7.12.0
+  - jedi=0.15.2
+  - jupyter=1.0.0
+  - matplotlib=3.5.1
+  - nb_conda_kernels=2.3.1
+  - numexpr=2.7.1
+  - numpy=1.22.0
+  - pandas=1.3.5
+  - pip=21.0.1
+  - plotly=5.5.0
+  - pyarrow=6.0.1
+  - python=3.8.8
+  - scikit-learn=1.0.2
+  - scipy=1.7.3
+  - pip:
+    - jupyter_contrib_nbextensions==0.5.1
+    - kaleido==0.2.1
+    - Pillow==7.1.2
+    - pydot==1.4.2
+    - xgboost==1.5.2
